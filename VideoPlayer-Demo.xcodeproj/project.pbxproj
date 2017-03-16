@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		D6DAEF5D1E7A2C4F0020DD8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DAEF5C1E7A2C4F0020DD8B /* main.m */; };
 		D6DAEF601E7A2C4F0020DD8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DAEF5F1E7A2C4F0020DD8B /* AppDelegate.m */; };
-		D6DAEF631E7A2C4F0020DD8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DAEF621E7A2C4F0020DD8B /* ViewController.m */; };
-		D6DAEF661E7A2C4F0020DD8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DAEF641E7A2C4F0020DD8B /* Main.storyboard */; };
 		D6DAEF681E7A2C500020DD8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6DAEF671E7A2C500020DD8B /* Assets.xcassets */; };
 		D6DAEF6B1E7A2C500020DD8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6DAEF691E7A2C500020DD8B /* LaunchScreen.storyboard */; };
+		D6DAEF751E7A2F4F0020DD8B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DAEF731E7A2F4F0020DD8B /* MainViewController.m */; };
+		D6DAEF761E7A2F4F0020DD8B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6DAEF741E7A2F4F0020DD8B /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +20,12 @@
 		D6DAEF5C1E7A2C4F0020DD8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6DAEF5E1E7A2C4F0020DD8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6DAEF5F1E7A2C4F0020DD8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D6DAEF611E7A2C4F0020DD8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D6DAEF621E7A2C4F0020DD8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D6DAEF651E7A2C4F0020DD8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6DAEF671E7A2C500020DD8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6DAEF6A1E7A2C500020DD8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6DAEF6C1E7A2C500020DD8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6DAEF721E7A2F4F0020DD8B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D6DAEF731E7A2F4F0020DD8B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D6DAEF741E7A2F4F0020DD8B /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +60,9 @@
 			children = (
 				D6DAEF5E1E7A2C4F0020DD8B /* AppDelegate.h */,
 				D6DAEF5F1E7A2C4F0020DD8B /* AppDelegate.m */,
-				D6DAEF611E7A2C4F0020DD8B /* ViewController.h */,
-				D6DAEF621E7A2C4F0020DD8B /* ViewController.m */,
-				D6DAEF641E7A2C4F0020DD8B /* Main.storyboard */,
+				D6DAEF721E7A2F4F0020DD8B /* MainViewController.h */,
+				D6DAEF731E7A2F4F0020DD8B /* MainViewController.m */,
+				D6DAEF741E7A2F4F0020DD8B /* MainViewController.xib */,
 				D6DAEF671E7A2C500020DD8B /* Assets.xcassets */,
 				D6DAEF691E7A2C500020DD8B /* LaunchScreen.storyboard */,
 				D6DAEF6C1E7A2C500020DD8B /* Info.plist */,
@@ -110,6 +110,7 @@
 				TargetAttributes = {
 					D6DAEF571E7A2C4F0020DD8B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ADNAZ8362H;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -138,8 +139,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6DAEF6B1E7A2C500020DD8B /* LaunchScreen.storyboard in Resources */,
+				D6DAEF761E7A2F4F0020DD8B /* MainViewController.xib in Resources */,
 				D6DAEF681E7A2C500020DD8B /* Assets.xcassets in Resources */,
-				D6DAEF661E7A2C4F0020DD8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6DAEF631E7A2C4F0020DD8B /* ViewController.m in Sources */,
 				D6DAEF601E7A2C4F0020DD8B /* AppDelegate.m in Sources */,
+				D6DAEF751E7A2F4F0020DD8B /* MainViewController.m in Sources */,
 				D6DAEF5D1E7A2C4F0020DD8B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,14 +160,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D6DAEF641E7A2C4F0020DD8B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D6DAEF651E7A2C4F0020DD8B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D6DAEF691E7A2C500020DD8B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ADNAZ8362H;
 				INFOPLIST_FILE = "VideoPlayer-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Encoder.VideoPlayer-Demo";
@@ -283,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ADNAZ8362H;
 				INFOPLIST_FILE = "VideoPlayer-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Encoder.VideoPlayer-Demo";
@@ -309,6 +304,7 @@
 				D6DAEF711E7A2C500020DD8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
